@@ -27,10 +27,10 @@ public class CryptoTradeData {
   @Column(name = "origin_country")
   private String tradeCountry;
 
-  @Column(name = "trade_price")
+  @Column(name = "trade_price", precision = 38, scale = 10)
   private BigDecimal tradePrice;
 
-  @Column(name = "exchange_rate")
+  @Column(name = "exchange_rate", precision = 38, scale = 10)
   private BigDecimal exchangeRate;
 
   @Column(name = "is_approved")
