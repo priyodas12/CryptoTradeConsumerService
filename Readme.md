@@ -20,6 +20,7 @@ queue,and persisting into postgresDb.
 - **OpenCsv**
 - **postgres**
 - **jackson**
+- **bruno**
 
 ### Setup and Installation
 
